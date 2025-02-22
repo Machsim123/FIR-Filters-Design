@@ -217,7 +217,7 @@ for i = 1:length(M_ajustat_ab)
     grid on;
 end
 
-%% c
+%%
 
 M = PS_PRJ_2_Faza_1c(ng,ns); 
 
@@ -288,7 +288,7 @@ xlabel('\omega / \pi'); ylabel('|H(e^{j\omega})| [dB]');
 grid on;
 legend;
 
-%% d
+%%
 
 ws = PS_PRJ_2_Faza_1d(ng, ns);
 
@@ -396,7 +396,7 @@ grid on;
 title(sprintf('s2: {π - ω_s, π - ω_p}, RLS = %.2f', RLS_weighted2));
 
 
-%% e
+%%
 
 M = 20; % Ordinul fixat al filtrului
 M_ajustat_e = M - 1;
@@ -530,9 +530,9 @@ title('FTB: Norma infinita Comparatie');
 xlabel('n'); ylabel('h[n]');
 grid on;
 
-%% faza 2
+%%
 
-%% a
+%%
 
 M = 20; % Ordinul filtrului
 K_values = [5, 7, 10, 13, 15]; % Întârzierea de grup
@@ -621,7 +621,7 @@ for i = 1:length(K_values)
     grid on;
 end
 
-%% b
+%%
 
 % Intervalul pentru ordinul filtrului
 M_values = M_ajustat_ab;
@@ -708,7 +708,7 @@ for i = 1:length(M_values)
     grid on;
 end
 
-%% c
+%%
 
 M = 20; % Ordinul fixat al filtrului
 M_ajustat = M - 1;
