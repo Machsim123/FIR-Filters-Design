@@ -3,6 +3,7 @@ clear all
 close all
 
 %% date student
+
 ng = 1;
 ns = 1;
 
