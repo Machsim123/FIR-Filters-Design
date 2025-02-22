@@ -113,7 +113,7 @@ for i = 1:length(M_ajustat_ab)
     grid on;
 end
 
-%% b
+%%
 
 % mat 1: caract spectrale {omega_p, omega_s}
 matrix1 = figure('Name', 'Faza 1 b - Matricea 1: Caracteristici spectrale {omega_p, omega_s}');
