@@ -5,18 +5,12 @@ close all
 ng = 1;
 ns = 1;
 
-%% apelam fct
-
 [omega_p,omega_s,M] = PS_PRJ_2_Faza_1ab(ng,ns);
-
-%% memoram datele pentru mai tarziu, eventual
 
 omega_pp = omega_p;
 omega_ss = omega_s;
 M_ajustat_ab = M - 1;
 Mm = M_ajustat_ab;
-
-%% a
 
 % mat 1: caract spectrale {omega_p, omega_s}
 matrix1 = figure('Name', 'Faza 1 a - Matricea 1: Caracteristici spectrale {omega_p, omega_s}');
